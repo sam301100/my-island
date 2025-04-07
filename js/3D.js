@@ -60,14 +60,10 @@ gltfLoader.load(
             if ( node.isMesh ) { 
                 node.castShadow = true;
                 node.receiveShadow = true;
-                console.log("here");
-                console.log(node);
             }
         } );
-        
         scene.add(island)
 });
-
 
 gltfLoader.load(
     '/models/treeline.glb', 
@@ -136,7 +132,7 @@ gltfLoader.load(
     var tree = gltf.scene.getObjectByName( 'tree');
     let treeMaterial = new THREE.MeshLambertMaterial();
     const color = new THREE.Color();
-    const treePalette = [ 0xFFC0CB, 0xFFC0CB, 0xFFC0CB ];
+    const treePalette = [ 0x320DAA, 0x411BC7, 0x5028E3 ];
 
         for ( let i = 0; i < 80; i ++ ) {
                 sampler.sample(tempPosition);

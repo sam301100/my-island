@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>samruddhi</title>
+    <title>Joshua's World</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -23,7 +25,7 @@
   gtag('config', 'G-QPNWJ63XYC');
 </script>
 
-<body style="background-color: #8facd9; color: white; max-width: 960px; margin: auto">
+<body style="background-color: white; color: #4A5D8F; max-width: 960px; margin: auto">
 
 <nav role="navigation">
     <div id="menuToggle">
@@ -32,21 +34,62 @@
         <span style="  background: white;"></span>
         <span style="  background: white;"></span>
     <ul id="menu">
-        <a href="index.html"><li>Samruddhi</li></a>
+        <a href="index.html"><li>3D World</li></a>
         <a href="about.html"><li>About</li></a>
+        <a href="legal.html"><li>Legal</li></a>
         <a href="contact.html"><li class="active">Contact</li></a>
     </ul>
     </div>
 </nav>
 
 <div style="margin: 10% 20px 10% 20px;">
-<p2><a href="index.html">Samruddhi</a> / Contact</a></p2>
 <br><br><br>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<div class="page-container">
+    <h1 class="page-title">Let's Connect</h1>
+    
+    <div class="contact-cards">
+        <!-- Email Card -->
+        <div class="contact-card popup fade-in">
+            <div class="card-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h2>Email</h2>
+            <p>Drop me a line anytime</p>
+            <a href="mailto:your.email@example.com" class="contact-button">
+                <i class="fas fa-paper-plane"></i>
+                Send Email
+            </a>
+        </div>
+
+        <!-- LinkedIn Card -->
+        <div class="contact-card popup fade-in">
+            <div class="card-icon">
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <h2>LinkedIn</h2>
+            <p>Connect professionally</p>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button">
+                <i class="fab fa-linkedin"></i>
+                View Profile
+            </a>
+        </div>
+
+        <!-- GitHub Card -->
+        <div class="contact-card popup fade-in">
+            <div class="card-icon">
+                <i class="fab fa-github"></i>
+            </div>
+            <h2>GitHub</h2>
+            <p>Check out my code</p>
+            <a href="https://github.com/yourusername" target="_blank" class="contact-button">
+                <i class="fab fa-github"></i>
+                View Repos
+            </a>
+        </div>
+    </div>
+    
+</div>
+
+<script src="js/contact.js"></script>
 </body>
 </html>
